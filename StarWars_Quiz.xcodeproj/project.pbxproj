@@ -96,8 +96,8 @@
 		47536215288FB834004AB4E0 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				4753620B288E85CC004AB4E0 /* QuestionViewController.swift */,
 				475361F5288E3E6D004AB4E0 /* IntroductionViewController.swift */,
+				4753620B288E85CC004AB4E0 /* QuestionViewController.swift */,
 				4753620D288E85DC004AB4E0 /* ResultsViewController.swift */,
 			);
 			path = VC;

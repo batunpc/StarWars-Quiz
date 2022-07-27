@@ -266,6 +266,7 @@
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FKS-b4-giJ">
                                 <rect key="frame" x="20" y="818" width="374" height="4"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
                             </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L3h-zk-QaA"/>
@@ -315,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqg-VU-sDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1623.1884057971015" y="109.82142857142857"/>
+            <point key="canvasLocation" x="1213" y="-256"/>
         </scene>
         <!--Results-->
         <scene sceneID="iC3-hJ-8og">
@@ -336,12 +337,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSV-6p-lSg">
                                 <rect key="frame" x="8" y="656.5" width="398" height="20"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k2C-Zr-62Z"/>
-                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <color key="backgroundColor" red="0.043810259159999997" green="0.1654375884" blue="0.27350707460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="k2C-Zr-62Z" firstAttribute="trailing" secondItem="rSV-6p-lSg" secondAttribute="trailing" constant="8" id="1hK-P2-NTR"/>
                             <constraint firstItem="rSV-6p-lSg" firstAttribute="top" secondItem="H3A-c9-MZp" secondAttribute="bottom" constant="31" id="6cE-6e-R0g"/>
@@ -352,7 +353,7 @@
                             <constraint firstItem="H3A-c9-MZp" firstAttribute="top" secondItem="k2C-Zr-62Z" secondAttribute="top" id="heb-eA-NFi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Results" id="HUQ-Yv-ItU">
+                    <navigationItem key="navigationItem" title="Results" id="HUQ-Yv-ItU" colorLabel="IBBuiltInLabel-Red">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="i6D-ah-8v9">
                             <connections>
                                 <action selector="unwindToQuizIntrodcution:" destination="u84-PK-EzB" id="PQn-cO-e4P"/>
@@ -368,7 +369,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yS0-tk-Mek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="u84-PK-EzB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2460.8695652173915" y="109.82142857142857"/>
+            <point key="canvasLocation" x="1971" y="-256"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N1k-pE-wXY">
@@ -387,7 +388,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zKc-mt-UsD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713.04347826086962" y="109.82142857142857"/>
+            <point key="canvasLocation" x="478" y="-256"/>
         </scene>
     </scenes>
     <resources>
@@ -395,8 +396,8 @@
         <image name="darthvader" width="440" height="440"/>
         <image name="jawa" width="440" height="440"/>
         <image name="r2d2" width="440" height="440"/>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
